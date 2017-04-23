@@ -1,0 +1,2 @@
+*/10 * * * * [ -e .last_fn ] && node upload.js $(cat .last_fn; rm .last_fn) >/dev/null 2>&1
+0 3 * * * bash mkvideo.sh >/dev/null 2>&1

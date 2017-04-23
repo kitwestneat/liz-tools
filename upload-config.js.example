@@ -1,0 +1,10 @@
+module.exports = {
+	blogname: 'my_blog',
+	tags: 'tag1,tag2',
+	auth: {
+	  consumer_key: 'mykey',
+	  consumer_secret: 'mysecret',
+	  token: 'mytoken',
+	  token_secret: 'mytokensecret'
+	}
+};
