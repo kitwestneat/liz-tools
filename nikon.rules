@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", ATTRS{product}=="NIKON DSC D600", RUN+="/opt/photo/start-gphoto2"

@@ -1,0 +1,22 @@
+{
+  "name": "liz-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitwestneat/liz-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitwestneat/liz-tools/issues"
+  },
+  "homepage": "https://github.com/kitwestneat/liz-tools#readme",
+  "dependencies": {
+    "tumblr.js": "^1.1.1"
+  }
+}
