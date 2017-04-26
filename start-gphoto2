@@ -1,5 +1,5 @@
 INT=5
-UPLOAD_DIR=/home/liz/Pictures/$(date +%F)
-SCRIPT=/home/liz/mk_vidlist.sh
+UPLOAD_DIR=/home/liz/Pictures/%y-%m-%d
+SCRIPT=/home/liz/liz-tools/mk_vidlist.sh
 
 gphoto2 --capture-image-and-download -I $INT --hook-script $SCRIPT --filename $UPLOAD_DIR/%y-%m-%dT%H:%M:%S
