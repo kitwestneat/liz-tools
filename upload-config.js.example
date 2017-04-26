@@ -1,3 +1,5 @@
+// Tumblr API Console has auth keys
+// https://www.tumblr.com/oauth/apps
 module.exports = {
 	blogname: 'my_blog',
 	tags: 'tag1,tag2',
